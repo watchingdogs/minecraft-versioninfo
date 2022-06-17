@@ -29,5 +29,18 @@ SERVERS
 Found server at C:\Users\John\Documents\moddedserver
 ```
 
+# Implementation
+If you want to use the code in your project, you can get a list of the worlds and the servers using the method below.
+```python
+import versioninfo
+
+worlds, servers = versioninfo.search("C:\Users\John")
+print(f"{worlds[0]} \n {servers[0]}")
+```
+```python
+['1.16.5', 'C:\Users\John\AppData\Roaming\.minecraft\saves\survival'] 
+C:\Users\John\Documents\moddedserver
+```
+
 
 
