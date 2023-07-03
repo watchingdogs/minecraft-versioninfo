@@ -8,9 +8,9 @@ The code searches for `level.dat` files and tries to get the [data version](http
 **The code does not work for Bedrock Edition worlds**. They will, however, show up on the world list.
 
 # How to use
-Make sure Python 3 is installed. The code uses [nbtlib](https://github.com/vberlier/nbtlib), run the following command to install it.
+Make sure Python 3 and pip are installed. The code uses [nbtlib](https://github.com/vberlier/nbtlib), run the following command to install it.
 ```bash
-$ pip install "nbtlib==1.12.1"
+$ pip3 install "nbtlib==1.12.1"
 ```
 
 Example usage:
