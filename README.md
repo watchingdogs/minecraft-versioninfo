@@ -3,7 +3,7 @@ This tool tells you where your Minecraft worlds are located on your disk and and
 I hope this tool will save you from opening worlds in the wrong versions and thus preventing world corruption.
 
 # How it works
-The code searches for `level.dat` files and tries to get the [data version](https://minecraft.fandom.com/wiki/Data_version) from them. This system was only implemented after 13w41a, "the tenth snapshot for Java Edition **1.7.2**", hence **worlds last opened before that version are not identified**.
+The code searches for `level.dat` files and tries to get the [data version](https://minecraft.fandom.com/wiki/Data_version) from them. This system was only implemented after 15w32a, "the fourth snapshot released for Java Edition **1.9**", hence **worlds last opened before that version are not identified**.
 
 **The code does not work for Bedrock Edition worlds**. They will, however, show up on the world list.
 

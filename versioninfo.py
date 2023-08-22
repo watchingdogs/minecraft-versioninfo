@@ -18,7 +18,7 @@ def checkServer(root):
 
 def getVersion(path):
     file = nbtlib.load(path)
-    # Try to load data version number, only works with worlds created after 13w41a, "the tenth snapshot for JE. 1.7.2"
+    # Try to load data version number, only works with worlds created in and after 15w32a, "the fourth snapshot released for Java Edition 1.9".
     # For more info on data version, seek https://minecraft.fandom.com/wiki/Data_version
     try:
         verid = file['']['Data']['Version']['Id']
